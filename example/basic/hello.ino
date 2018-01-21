@@ -6,6 +6,9 @@
 #define TFT_CS 5
 #define TFT_DC 4
 
+// Code from https://www.youtube.com/watch?v=2xsL6JSwlS0
+// Antony Cartwright
+
 Adafruit_ST7735 tft = Adafruit_ST7735(TFT_CS, TFT_DC, TFT_RST);
 
 const uint16_t grey = 0x5AEB;
