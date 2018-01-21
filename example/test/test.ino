@@ -2,6 +2,9 @@
 #include <Adafruit_ST7735.h>
 #include <SPI.h>
 
+// Code from https://www.youtube.com/watch?v=2xsL6JSwlS0
+// Antony Cartwright
+// and from Library example Adafruit_ST7735
 
 #define TFT_RST 16
 #define TFT_CS 5
